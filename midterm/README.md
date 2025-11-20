@@ -1,6 +1,6 @@
 # Midterm ML Zoomcamp - Stroke Prediction
 
-## Stroke Prediction Dataset
+## Study Case Dataset
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately [11% of total deaths](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
 
@@ -20,6 +20,10 @@ Attribute Information:
 - `bmi`: body mass index
 - `smoking_status`: “formerly smoked”, “never smoked”, “smokes” or “Unknown”*
 - `stroke`: 1 if the patient had a stroke or 0 if not
+
+## Modelling 
+
+The model used in this project is a classification model that predicts the probability of a patient having a stroke based on the input features. The model was trained using a Logistic Regression, Decision Tree, Random Forest, or Gradient Boosting algorithm. Other potential models have not been explored in this project but could be considered for future work.
 
 ## Docker
 
