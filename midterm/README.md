@@ -20,3 +20,17 @@ Attribute Information:
 - `bmi`: body mass index
 - `smoking_status`: “formerly smoked”, “never smoked”, “smokes” or “Unknown”*
 - `stroke`: 1 if the patient had a stroke or 0 if not
+
+## Docker
+
+To use Docker to run the prediction script, follow these steps:
+
+- Download image base `nugrahadocker/stroke-prediction:v0.1` from Docker Hub
+- Run container from the image
+
+```bash
+docker run --rm nugrahadocker/stroke-prediction:v0.1
+```
+
+This will execute the `predict.py` script inside the Docker container and display the stroke prediction probability for the given patient data.
+
